@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.chuitec.webview"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.chuitec.webview"
@@ -66,4 +66,5 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
 }
